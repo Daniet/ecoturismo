@@ -1,0 +1,21 @@
+@import "./sass/btn";
+@import "./sass/collection";
+@import "./sass/controllers";
+@import "./sass/input";
+@import "./sass/graphics";
+
+a{
+  cursor: pointer;
+}
+
+nav {
+  box-shadow: none
+}
+
+label input[type=checkbox]{
+  float: right;
+}
+
+// svg{
+//   background: #888;
+// }

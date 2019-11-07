@@ -1,0 +1,27 @@
+$btn-size: 140px;
+$btn-border: 7px;
+
+.btn-round{
+  text-align: center;
+  width: $btn-size;
+  height: $btn-size;
+  border-radius: 50%;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0);
+  border: $btn-border solid #fff;
+  transition: 1s;
+  line-height: $btn-size - ($btn-border * 2);
+  z-index: 100;
+  i{
+    font-size: 5rem;
+  }
+}
+
+.btn{
+  margin: 0px -2px;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0);
+}
+
+.group-btn-select{
+  text-align: center;
+  margin-bottom: $btn-size * -.5;
+}
